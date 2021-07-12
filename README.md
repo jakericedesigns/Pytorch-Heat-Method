@@ -7,7 +7,7 @@ I didn't wrap it up into a proper pytorch method, because I'm lazy and also don'
   - Pytorch
   - Kornia (optional, used in the demo for edge extraction)
 
-The `heat_method` function performs best when fed a single channel image tensor, where the edges to find the distance to are a constant value, and everything else is set to 0. 
+The `heat_method` function performs best when fed a single channel image tensor, where the edges to find the distance to, are a constant value, and everything else is set to 0. 
 
 Example Input:
 
