@@ -9,6 +9,8 @@ I didn't wrap it up into a proper pytorch method, because I'm lazy and also don'
 
 The `heat_method` function performs best when fed a single channel image tensor, where the edges to find the distance to, are a constant value, and everything else is set to 0. 
 
+It uses the jacobi method for solving the linear systems, there are plenty of better/faster ways of solving them (FFTs, torch.linalg.solve), but once again, I'm lazy.
+
 Example Input:
 
 ![Input Edges](https://github.com/jakericedesigns/Pytorch-Heat-Method/blob/main/assets/edges_out.png)
