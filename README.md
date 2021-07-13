@@ -1,5 +1,5 @@
 # Pytorch-Heat-Method
-A (crude) differentiable implementation of [The Heat Method for Distance Computation (Geodesics in Heat), by Crane et al.](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/)
+A (crude) differentiable implementation of [The Heat Method for Distance Computation, by Crane et al.](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/)
 
 I didn't wrap it up into a proper pytorch method, because I'm lazy and also don't fully understand all of that junk. But this works, and seems to generate valid gradients during backprop. 
 
